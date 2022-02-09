@@ -60,6 +60,14 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+#profile-pic:hover{
+  content:url('/assets/img/profile-qrcode.png');
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: 3s ease-in-out;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
