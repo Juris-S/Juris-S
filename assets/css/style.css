@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 #hero:before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -421,7 +421,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -513,7 +513,7 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-.portfolio #portfolio-flters {
+#portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -522,7 +522,7 @@ section {
   border-radius: 50px;
   padding: 2px 15px;
 }
-.portfolio #portfolio-flters li {
+#portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -534,10 +534,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+#portfolio-flters li:hover,  #portfolio-flters li.filter-active {
   color: #149ddd;
 }
-.portfolio #portfolio-flters li:last-child {
+#portfolio-flters li:last-child {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
@@ -547,7 +547,7 @@ section {
   z-index: 1;
 }
 .portfolio .portfolio-wrap::before {
-  content: "";
+  /* content: ""; */
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
