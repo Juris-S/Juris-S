@@ -29,20 +29,14 @@
   <script
   src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
   </script>
-
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-/>
-
-
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
   <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
 
 </head>
 
@@ -233,7 +227,7 @@
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Juris Savostijanovs</h4>
-              <p><em>An Edge Hill <a href="https://www.lancashiretelegraph.co.uk/news/20032444.blackburn-university-student-awarded-scholarship-vr-work/">scholar</a>, <a href="#publications">author</a>, and an <a href="https://www.edgehill.ac.uk/graduation/dates-and-times/?tab=monday#:~:text=Ceremony%203%3A%20Monday%2018%20July%202022%2C%205pm">upcoming graduate</a> with a Bachelor's in Psychology (BSc)</em></p>
+              <p><em>An Edge Hill <a href="https://www.lancashiretelegraph.co.uk/news/20032444.blackburn-university-student-awarded-scholarship-vr-work/">scholar</a>, <a href="#publications">author</a>, and a graduate with a Bachelor's in Psychology (BSc)</em></p>
             </div>
 
             <h3 class="resume-title">Education</h3>
@@ -328,6 +322,25 @@
         <div class="album bg-light h-25">
           <div class="container">
               <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3">
+                <div class="col d-flex">
+                  <div class="card h-100">
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;">
+                      <iframe src="https://streamable.com/e/l49gpc?autoplay=1&nocontrols=1&muted=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="display:block;width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;background-color: #161718;">
+                      </iframe>
+                    </div>
+                    <div class="card-body">
+                          <p class="card-text">
+                              ChatIt is a web-based chat application utilising Web Sockets that allows random users to chat with each other.</p>
+                          <div class="d-flex justify-content-between">
+                              <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#ChatItModal">
+                                      Read More 💬
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
                   <div class="col d-flex">
                       <div class="card h-100">
                         <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/nvqtu7?autoplay=1&nocontrols=1&muted=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
@@ -350,7 +363,7 @@
                         <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/vq98yu?autoplay=1&nocontrols=1&muted=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                           <div class="card-body">
                               <p class="card-text">
-                                  PowerIt is a take on a typical wave-based tower defense game. The user has to juggle a 'power cube' to either power their defenses or collect coins which are used for power-ups!
+                                  PowerIt is a take on a typical wave-based tower defence game. The user has to juggle a 'power cube' to either power their defences or collect coins which are used for power-ups!
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                   <div class="btn-group">
@@ -482,6 +495,58 @@
           </div>
       </div>
       <!-- Modals -->
+
+      <!-- ChatIt -->
+      <div class="modal fade" id="ChatItModal" tabindex="-1" aria-labelledby="chatItModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="chatItModalLabel">ChatIt</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="accordion" id="ChatIt">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneChatIt" aria-expanded="true" aria-controls="collapseOneBoatIt">
+                          Details
+                        </button>
+                      </h2>
+                      <div id="collapseOneChatIt" class="accordion-collapse collapse show" aria-labelledby="headingChatIt" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <a href="https://juris-chat-app.netlify.app/" target="_blank" style="padding-bottom: 1rem;">Live View</a>
+                            <i>(Open two tabs and chat with yourself!)</i>
+                            <ul class="list-unstyled">
+                              <li><i class="fas fa-desktop"></i> Target Platform: Web</li>
+                              <li><i class="fas fa-tools"></i> Tools: Javascript, Socket.io, Netlify, Heroku</li>
+                              <li><i class="far fa-clock"></i> Duration: 1 Week</li>
+                              <li><i class="fas fa-user-friends"></i> Team Size: 1</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoChatIt" aria-expanded="false" aria-controls="collapseTwoBoatIt">
+                            Features
+                        </button>
+                      </h2>
+                      <div id="collapseTwoChatIt" class="accordion-collapse collapse" aria-labelledby="headingTwoChatIt" data-bs-parent="#ChatIt">
+                        <div class="accordion-body">
+                            <ul class="list-unstyled">
+                                <li>Socket.io - Used to establish the duplex connection between client and the server hosted on heroku</li>
+                                <br>
+                                <li>Netlify - Linked via git and used to serve the front-end of the application, automatically synced to update with changes.</li>
+                                <br>
+                                <li>Heroku - Used to host the back-end (server) of the Node.JS application</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
 
       <!-- BoatIt -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="boatItModalLabel" aria-hidden="true">
