@@ -22,4 +22,4 @@ Well-vested in numerous programming languages and work environments encompassing
 ![image](https://custom-icon-badges.demolab.com/badge/-WEBXR/VR-purple?style=for-the-badge)
 
 ## GitHub
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Juris-S&custom_title=My%20GitHub%20Activity&hide_border=true&theme=react-dark&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Juris-S&custom_title=My%20GitHub%20Activity&hide_border=true&theme=react-dark&bg_color=0d1117)
