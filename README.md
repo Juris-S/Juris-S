@@ -1,49 +1,25 @@
-<style>
-table, tr {border:hidden; padding: 0; border-collapse: collapse; border-spacing: 0}
-td, th {border:hidden; padding: 0;}
+# Hello There 👋
+I'm Juris, a bilingual scholar with a First-Class Bachelors in Psychology and a demi-decade of professional programming expertise and academic research.
+Well-vested in numerous programming languages and work environments encompassing freelancing and interdisciplinary work.
 
-.tag {display: inline; list-style-type: none; padding: 0.3rem ;text-align: center; align-items: center; background: rgba(0,0,0,0.25); background-blend-mode: darken; color: white;}
-</style>
+[![image](https://img.shields.io/static/v1?label=New%20Media%20and%20Society&message=5-Year-Impact-Factor:%207.244&color=blue&style=social)](https://journals.sagepub.com/doi/10.1177/14614448221075736)
 
-<div id="header" style="text-align: center;">
-    <h1 style="padding-bottom: 0.1rem; margin: 0" about="Name"> JURIS SAVOSTIJANOVS </h1>
-    <h3 style="padding: 0; margin: 0; font-weight: lighter" about="JobTitle"> Games Developer & Researcher in Psychology </h3>
-</div>
 
-<div id="left" style="float: left; width: 65%;">
-    <h2 about="Name"> Profile </h2>
-    <p>A bi-lingual scholar with a First-Class Bachelors in Psychology and a demi-decade of professional programming 
-        expertise and academic research.
-        Well-vested in numerous programming languages and work environments encompassing freelancing and interdisciplinary work.</p>
-</div>
+## Core Languages
 
-<div id="right" style="float: right; width: 30%;">
-    <h2 about="Name"> Skills </h2>
-    <h3>Programming Languages</h3>
-    <table style="border: hidden;">
-        <tr>
-            <td> C# </td>
-            <td> ● ● ● ● ● ○ </td>
-        </tr>
-        <tr>
-            <td> JavaScript </td>
-            <td> ● ● ● ● ○ ○ </td>
-        </tr>
-        <tr>
-            <td> Python </td>
-            <td> ● ● ● ● ○ ○ </td>
-        </tr>
-        <tr>
-            <td> TypeScript </td>
-            <td> ● ● ● ○ ○ ○ </td>
-        </tr>
-    </table>
-    <h3>Technologies</h3>
-    <ul style="list-style-type: none; padding: 0; margin: 0; white-space:nowrap; overflow: hidden;">
-        <li class="tag">Git</li>
-        <li class="tag">React</li>
-        <li class="tag">PixiJS</li>
-        <li class="tag">Phaser</li>
-    </ul>
+![image](https://custom-icon-badges.demolab.com/badge/-Python-FFD43B?style=for-the-badge&logo=Python)
+![image](https://custom-icon-badges.demolab.com/badge/-JavaScript-FFD43B?style=for-the-badge&&logoColor=black&logo=JavaScript)
+![image](https://custom-icon-badges.demolab.com/badge/-TypeScript-blue?style=for-the-badge&logoColor=white&logo=TypeScript)
+![image](https://custom-icon-badges.demolab.com/badge/-Csharp-blue?style=for-the-badge&logoColor=white&logo=Cs)
 
-</div>
+## Technologies
+![image](https://custom-icon-badges.demolab.com/badge/-NPM-CC3534?style=for-the-badge&logo=npm)
+![image](https://custom-icon-badges.demolab.com/badge/-Git-F1502F?style=for-the-badge&logoColor=white&logo=Git)
+![image](https://custom-icon-badges.demolab.com/badge/-PixiJS-E91E63?style=for-the-badge)
+![image](https://custom-icon-badges.demolab.com/badge/-Phaser-yellow?style=for-the-badge)
+![image](https://custom-icon-badges.demolab.com/badge/-NodeJS-green?style=for-the-badge&logoColor=white&logo=NodeJS)
+![image](https://custom-icon-badges.demolab.com/badge/-Webpack-005484?style=for-the-badge&logo=Webpack)
+![image](https://custom-icon-badges.demolab.com/badge/-WEBXR/VR-purple?style=for-the-badge)
+
+## GitHub
+[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Juris-S&custom_title=My%20GitHub%20Activity&hide_border=true&theme=react-dark&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
