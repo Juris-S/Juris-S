@@ -21,5 +21,7 @@ Well-vested in numerous programming languages and work environments encompassing
 ![image](https://custom-icon-badges.demolab.com/badge/-Webpack-005484?style=for-the-badge&logo=Webpack)
 ![image](https://custom-icon-badges.demolab.com/badge/-WEBXR/VR-purple?style=for-the-badge)
 
-## GitHub
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Juris-S&custom_title=My%20GitHub%20Activity&hide_border=true&theme=react-dark&bg_color=0d1117)
+## Applications
+![image](https://custom-icon-badges.demolab.com/badge/-Unity-white?style=for-the-badge&logo=Unity&logoColor=black)
+![image](https://custom-icon-badges.demolab.com/badge/-Blender-orange?style=for-the-badge&logo=Blender&logoColor=white)
+![image](https://custom-icon-badges.demolab.com/badge/-Photoshop-blue?style=for-the-badge&logo=Photoshop&logoColor=white)
