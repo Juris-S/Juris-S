@@ -13,7 +13,7 @@ I am well-vested in numerous programming languages and work environments encompa
 [![image](https://custom-icon-badges.demolab.com/badge/-Csharp-blue?style=for-the-badge&logoColor=white&logo=Cs)](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 
 ## Technologies
-![image](https://custom-icon-badges.demolab.com/badge/-NPM-CC3534?style=for-the-badge&logo=npm)
+[![image](https://custom-icon-badges.demolab.com/badge/-NPM-CC3534?style=for-the-badge&logo=npm)](https://www.npmjs.com/)
 ![image](https://custom-icon-badges.demolab.com/badge/-Git-F1502F?style=for-the-badge&logoColor=white&logo=Git)
 ![image](https://custom-icon-badges.demolab.com/badge/-PixiJS-E91E63?style=for-the-badge)
 ![image](https://custom-icon-badges.demolab.com/badge/-Phaser-yellow?style=for-the-badge)
