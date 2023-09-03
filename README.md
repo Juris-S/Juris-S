@@ -25,3 +25,7 @@ I am well-vested in numerous programming languages and work environments encompa
 ![image](https://custom-icon-badges.demolab.com/badge/-Unity-white?style=for-the-badge&logo=Unity&logoColor=black)
 ![image](https://custom-icon-badges.demolab.com/badge/-Blender-orange?style=for-the-badge&logo=Blender&logoColor=white)
 ![image](https://custom-icon-badges.demolab.com/badge/-Photoshop-blue?style=for-the-badge&logo=Photoshop&logoColor=white)
+
+## Connect
+
+I'm always looking to make new connections! If you're looking to get in touch email is usually the easiest, I also have Twitter and LinkedIn.
