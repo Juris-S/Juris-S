@@ -33,4 +33,4 @@ I'm always looking to make new connections! If you're looking to get in touch em
 
 ### Extras
 
-I recently started writing about Unity Game Development on Medium under @juris.savos 📖
+[![image](https://custom-icon-badges.demolab.com/badge/-Medium-000000?style=for-the-badge&logo=Medium)](https://medium.com/@juris.savos)
