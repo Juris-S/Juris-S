@@ -1,6 +1,6 @@
 # Hello There 👋
 I'm Juris, a bilingual scholar with a First-Class Bachelors in Psychology and a demi-decade of professional programming expertise and academic research.
-I am well-vested in numerous programming languages and work environments encompassing freelancing and interdisciplinary work. Currently working in TypeScript.
+I am well-vested in numerous programming languages (C#, JS, TS) and work environments encompassing freelancing and interdisciplinary work. Currently working in TypeScript.
 
 [![image](https://img.shields.io/static/v1?label=New%20Media%20and%20Society&message=5-Year-Impact-Factor:%207.244&color=blue&style=social)](https://journals.sagepub.com/doi/10.1177/14614448221075736)
 
