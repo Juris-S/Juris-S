@@ -28,7 +28,7 @@ I am well-vested in several programming languages (C#, JS, TS) and work environm
 
 ## Connect
 
-I'm always looking to make new connections! If you're looking to get in touch email is usually the easiest, I also have Twitter and LinkedIn. 
+I'm always looking to make new connections! If you're looking to get in touch email is usually the easiest, I also have Twitter (Now X) and LinkedIn. 
 
 
 ### Extras
