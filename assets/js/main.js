@@ -8,8 +8,8 @@
   "use strict";
 
   /**
-   * Easy selector helper function
-   */
+  * Easy selector helper function
+  */
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -19,9 +19,21 @@
     }
   }
 
+  const toggleExpand = () => {
+    const expandable = document.querySelector('.expandable');
+    const arrow = document.querySelector('.toggle-arrow');
+    if (expandable.style.display === 'none' || expandable.style.display === '') {
+      expandable.style.display = 'block';
+      arrow.innerHTML = '&#9650;'; // Up arrow
+    } else {
+      expandable.style.display = 'none';
+      arrow.innerHTML = '&#9660;'; // Down arrow
+    }
+  }
+
   /**
-   * Easy event listener function
-   */
+  * Easy event listener function
+  */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
     if (selectEl) {
@@ -34,15 +46,15 @@
   }
 
   /**
-   * Easy on scroll event listener 
-   */
+  * Easy on scroll event listener
+  */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
   /**
-   * Navbar links active state on scroll
-   */
+  * Navbar links active state on scroll
+  */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
     let position = window.scrollY + 200
@@ -61,8 +73,8 @@
   onscroll(document, navbarlinksActive)
 
   /**
-   * Scrolls to an element with header offset
-   */
+  * Scrolls to an element with header offset
+  */
   const scrollto = (el) => {
     let elementPos = select(el).offsetTop
     window.scrollTo({
@@ -72,8 +84,8 @@
   }
 
   /**
-   * Back to top button
-   */
+  * Back to top button
+  */
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
@@ -88,17 +100,20 @@
   }
 
   /**
-   * Mobile nav toggle
-   */
+  * Mobile nav toggle
+  */
   on('click', '.mobile-nav-toggle', function(e) {
     select('body').classList.toggle('mobile-nav-active')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
 
-  /**
-   * Scrool with ofset on links with a class name .scrollto
-   */
+  on('click', '.resume-item.arrowed', function(e) {
+    if (e.target === this) {
+      toggleExpand();
+    }
+  });
+
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
@@ -115,8 +130,8 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
-   */
+  * Scroll with ofset on page load with hash links in the url
+  */
   window.addEventListener('load', () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
@@ -126,8 +141,8 @@
   });
 
   /**
-   * Hero type effect
-   */
+  * Hero type effect
+  */
   const typed = select('.typed')
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
@@ -142,8 +157,8 @@
   }
 
   /**
-   * Skills animation
-   */
+  * Skills animation
+  */
   let skilsContent = select('.skills-content');
   if (skilsContent) {
     new Waypoint({
@@ -158,17 +173,17 @@
     })
   }
 
-function calculateAge(date) 
-{
-  const now = new Date();
-  const diff = Math.abs(now - date );
-  const age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); 
-  return age
-}
+  function calculateAge(date)
+  {
+    const now = new Date();
+    const diff = Math.abs(now - date );
+    const age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+    return age
+  }
 
   /**
-   * Porfolio isotope and filter
-   */
+  * Porfolio isotope and filter
+  */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
@@ -197,15 +212,16 @@ function calculateAge(date)
   });
 
   /**
-   * Initiate portfolio lightbox 
-   */
+  * Initiate portfolio lightbox
+  */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
+
   /**
-   * Portfolio details slider
-   */
+  * Portfolio details slider
+  */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -221,8 +237,8 @@ function calculateAge(date)
   });
 
   /**
-   * Testimonials slider
-   */
+  * Testimonials slider
+  */
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -250,8 +266,8 @@ function calculateAge(date)
   });
 
   /**
-   * Animation on scroll
-   */
+  * Animation on scroll
+  */
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,

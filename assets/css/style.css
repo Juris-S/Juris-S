@@ -41,6 +41,17 @@ h1, h2, h3, h4, h5, h6 {
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
+.expandable {
+  display: none;
+}
+
+.toggle-arrow {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -374,6 +385,39 @@ section {
   margin-bottom: 0;
 }
 
+.programming-languages {
+  list-style: none;
+  padding: 0;
+}
+
+.programming-languages li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.programming-languages i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.progress {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #1f5297;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  border-radius: 5px;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -468,6 +512,55 @@ section {
   border-left: 2px solid #1f5297;
   position: relative;
 }
+
+.resume .resume-item.arrowed::before {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #1f5297;
+}
+
+.resume .resume-item.arrowed h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 20px;
+}
+
+.resume .resume-item.arrowed .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18a6;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item.arrowed .resume-item {
+  padding: 0 0 20px 0px;
+  margin-top: -2px;
+  border-left: 0px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item.arrowed .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  top: 0;
+  left: -29px;
+  border: 2px solid #005ad8b7;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -509,6 +602,23 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.released-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #149ddd;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
