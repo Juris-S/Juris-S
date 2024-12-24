@@ -278,3 +278,26 @@
   });
 
 })()
+
+document.addEventListener('DOMContentLoaded', () => {
+  ToggleFestiveMode();
+
+  const toggleButton = document.getElementById('festive-toggle');
+  toggleButton.addEventListener('click', () => {
+    ToggleFestiveMode();
+  });
+});
+
+function ToggleFestiveMode() {
+  const hero = document.getElementById('hero');
+  hero.classList.toggle('festive-mode');
+  showSnow(hero.classList.contains('festive-mode'));
+
+  const headings = document.querySelectorAll('h2:not(.accordion-header)');
+  headings.forEach(heading => {
+    heading.classList.toggle('festive-mode');
+  });
+
+  const toggleButton = document.getElementById('festive-toggle');
+  toggleButton.classList.toggle('festive-mode');
+}
