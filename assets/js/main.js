@@ -280,7 +280,7 @@
 })()
 
 document.addEventListener('DOMContentLoaded', () => {
-  ToggleFestiveMode();
+  // ToggleFestiveMode();
 
   const toggleButton = document.getElementById('festive-toggle');
   toggleButton.addEventListener('click', () => {
